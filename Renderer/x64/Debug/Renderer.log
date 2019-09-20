@@ -1,0 +1,27 @@
+﻿  context.cpp
+  main.cpp
+  render.cpp
+c:\users\s189075\source\repos\renderer\renderer\render.cpp(7): warning C4267: '=': conversion from 'size_t' to 'GLuint', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+context.obj : error LNK2019: unresolved external symbol glewInit referenced in function "public: bool __cdecl context::init(int,int,char const *)" (?init@context@@QEAA_NHHPEBD@Z)
+render.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+render.obj : error LNK2001: unresolved external symbol __glewBufferData
+render.obj : error LNK2001: unresolved external symbol __glewDeleteBuffers
+render.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+render.obj : error LNK2001: unresolved external symbol __glewAttachShader
+render.obj : error LNK2001: unresolved external symbol __glewCompileShader
+render.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+render.obj : error LNK2001: unresolved external symbol __glewCreateShader
+render.obj : error LNK2001: unresolved external symbol __glewDeleteProgram
+render.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+render.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+render.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+render.obj : error LNK2001: unresolved external symbol __glewShaderSource
+render.obj : error LNK2001: unresolved external symbol __glewUseProgram
+render.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+render.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+render.obj : error LNK2001: unresolved external symbol __glewDeleteVertexArrays
+render.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+C:\Users\s189075\source\repos\Renderer\thirdparty\glew\lib\x64\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\s189075\source\repos\Renderer\x64\Debug\Renderer.exe : fatal error LNK1120: 19 unresolved externals
